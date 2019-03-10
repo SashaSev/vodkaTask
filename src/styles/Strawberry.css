@@ -1,0 +1,30 @@
+.strawberry {
+    font-weight: bold;
+    font-family: Roboto, serif;
+    font-size: 146px;
+    position: absolute;
+    left: 175px;
+    top: 199px;
+    color: #841849
+}
+
+.strawberry_vodka {
+    font-weight: bold;
+    font-family: Roboto sans-serif;
+    font-size: 146px;
+    line-width: 40px;
+    position: absolute;
+    left: 265px;
+    top: 348px;
+    color: #000000;
+    opacity: 0.2
+}
+
+
+
+.strawberry_food  {
+    position: absolute;
+    left: 150px;
+    top: 491px
+
+}

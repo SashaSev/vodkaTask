@@ -1,0 +1,69 @@
+.circle {
+    maxWidth: 920px;
+    overflow: hidden;
+    opacity: 1;
+    height: 1736px;
+    width: 900px;
+    position: absolute;
+    left: 1230px;
+    top: -768px;
+    border-radius: 300px 0 0 600px;
+}
+.bottle {
+    position: absolute;
+    left: 500px;
+    top: 100px;
+    width: 1600px;
+    height: 800px;
+    transform: rotate(-5deg);
+
+}
+.timer {
+    height:50px;
+    width: 50px;
+    position: absolute;
+    left: 40px;
+    top: 928px;
+    opacity: 0.7;
+    border: 1px solid black;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+.circle_img{
+    animation: anim  10s;
+
+}
+@keyframes anim {
+    0% {
+        background-color: #002850;
+    }
+    40%{
+        background-color: red;
+    }
+    100%{
+        background-color: red;
+    }
+}
+.bottle{
+     animation: bottle 6s linear;
+    overflow:hidden;
+    transition: all 2s ease-in-out;
+ }
+@keyframes bottle {
+
+
+    0%{
+        transform:rotate(0deg)
+        translate(-165px)
+        rotate(0deg);
+
+    }
+
+    100%{
+        transform:rotate(360deg)
+        translate(-165px)
+        rotate(-60deg);
+    }
+
+    }
